@@ -1,3 +1,20 @@
+package twosum;
+
+import java.util.HashMap;
+
+/**
+ * Answer
+ */
+public class Answer {
+
+  public static void main(String[] args) {
+    int[] nums = {2,7,11,15};
+    int target = 9;
+
+    Solution sol = new Solution();
+    int[] rt = sol.twoSum(nums, target);
+  }
+}
 
 class Solution {
 
